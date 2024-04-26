@@ -16,7 +16,6 @@ public interface ApiService {
     Call<GithubSearch> searchUsers(@Query("q") String query);
 
 
-
     @GET("users/{username}")
     Call<Users> getUser(@Path("username") String username);
 
