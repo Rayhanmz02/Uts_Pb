@@ -77,6 +77,7 @@ public class Detail extends AppCompatActivity {
         }
     }
 
+
     private void showLoading(Boolean isLoading) {
         if (isLoading) {
             progressBar.setVisibility(View.VISIBLE);
