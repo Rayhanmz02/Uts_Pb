@@ -11,7 +11,6 @@ import retrofit2.http.Query;
 
 public interface ApiService {
 
-
     @Headers({"Authorization: token <MYTOKEN>"})
     @GET("search/users")
     Call<GithubSearch> searchUsers(@Query("q") String query);
